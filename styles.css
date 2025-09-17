@@ -1,11 +1,89 @@
-*{
-    margin: 0px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Playfair Display;
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: row;
 }
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+}
+.one{
+    background-color: red;
+    width: 200px;
+    height: 420px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    transition: transform 1s;
+}
+.one h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: white;
+}
+.one p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.two{
+    background-color: green;
+    width: 200px;
+    height: 420px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.two h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: white;
+}
+.two p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+.three{
+    background-color: blue;
+    width: 200px;
+    height: 420px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.three h1 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0px;
+    color: white;
+}
+.three p {
+    text-align: center;
+    font-size: 16px;
+    color: white;
+
 
 body{
     display:flex;
     flex-direction:column;
     align-items: center;
+
 }
 
 
@@ -66,8 +144,17 @@ body{
 
 .name{
     font-weight: bold;
+ 
 }
+
+.testimony-card:hover, .testimony-card2:hover, .testimony-card3:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 16px rgba(49, 104, 83, 0.15);
+    cursor: pointer;
+}
+
 
 .reviewname{
     font-style: italic;
+
 }
