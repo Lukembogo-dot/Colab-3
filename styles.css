@@ -3,10 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family:  Playfair Display;
-}
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 5px;
     padding: 5px;
     flex-direction: row;
