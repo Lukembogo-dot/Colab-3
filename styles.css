@@ -103,6 +103,7 @@ h1 {
 .three:hover,
 .four:hover {
     transform: scale(0.95);
+}
 
  
 .testimony h1 {
